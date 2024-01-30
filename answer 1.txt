@@ -1,0 +1,39 @@
+ You are testing the Getir app. When you find a bug in production, how do you
+manage the process?
+
+
+
+Üretimde bir hata bulduğunuzda, genellikle şu adımları takip ederek sorunları çözmeye çalışırsınız:
+
+1. **Hata Tanımlama ve Yeniden Üretme:**
+   - Kullanıcı şikayetleri, log kayıtları veya otomatik izleme araçları gibi kaynaklardan hataları tespit etmeye çalışın.
+   - Hata ortaya çıktığında, hatayı yeniden üretebilmek için koşulları belirleyin. Bu, sorunu daha iyi anlamanıza ve çözüm bulmanıza yardımcı olacaktır.
+
+2. **Önceliklendirme:**
+   - Hatanın ciddiyetini ve etkisini değerlendirin. Acil ve kritik hatalar öncelikli olarak ele alınmalıdır.
+
+3. **Ekipler Arası İletişim:**
+   - Geliştirme, test ve operasyon ekipleri arasında etkileşim sağlayarak sorunun kökenini anlamaya çalışın.
+
+4. **Log İnceleme:**
+   - Uygulamanın loglarını detaylı bir şekilde inceleyin. Hatanın ne zaman, nerede ve nasıl meydana geldiğini anlamak için loglardan faydalanın.
+
+5. **Debugging ve Profiling Araçları Kullanma:**
+   - Hata ayıklama (debugging) araçları ve performans profil araçları kullanarak sorunlu kod bloklarını ve performans sorunlarını belirlemeye çalışın.
+
+6. **Geçmiş Değişikliklere Göz Atma:**
+   - Kod tabanında son yapılan değişikliklere bakın. Hata, son yapılan bir güncelleme veya değişiklikle ilgili olabilir.
+
+7. **Yeniden Dağıtma veya Geri Alma:**
+   - Sorunlu kodun etkilediği bir bölgeyi tespit ettikten sonra, hızlı bir çözüm için gerekiyorsa o bölgeyi geri alabilir veya geçici bir düzeltme (hotfix) uygulayabilirsiniz.
+
+8. **Test Ortamlarında Doğrulama:**
+   - Çözümü uyguladıktan sonra test ortamlarında hata ortadan kalktığından emin olun. Bu, çözümün üretim ortamında sorunsuz çalışacağını doğrulamak için önemlidir.
+
+9. **Kök Neden Analizi:**
+   - Sorunun kök nedenini anlamak için derinlemesine bir analiz yapın. Bu, benzer hataların gelecekte tekrarlanmasını önlemek için önemlidir.
+
+10. **Dokümantasyon ve Öğrenme:**
+    - Sorunun çözümü sırasında elde edilen bilgileri belgeleyin ve ekibinizle paylaşın. Gelecekte benzer sorunlarla karşılaştığınızda daha hızlı çözümler üretebilirsiniz.
+
+Bu süreç, hataların hızlı bir şekilde tanımlanmasını, çözülmesini ve benzer hataların gelecekte tekrarlanmasını engellemeyi amaçlar. Ayrıca, ekipler arası etkileşim, hızlı geri bildirim ve sürekli iyileştirme süreçleri, bu tür durumlarla daha etkili bir şekilde başa çıkmanıza yardımcı olabilir.
